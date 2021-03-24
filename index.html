@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>art1</title>
+  <title>artSample</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="twitter:card" content="player" />
@@ -14,7 +14,7 @@
 
 <body>
   <main>
-  <video autobuffer controls id="mv" width="320"> ▼
+  <video autobuffer controls id="mv" width="400"> ▼
     <source src="CalliWind.mp4">
     <p>HTML5に対応していません。</p>
   </video>
@@ -23,6 +23,7 @@
   var media = document.getElementById("mv");
 
   //ループ再生を指定 ▼
+  media.play();
   media.loop = true;
   </script>
   </main>
